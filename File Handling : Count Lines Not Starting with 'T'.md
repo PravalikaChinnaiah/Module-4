@@ -13,7 +13,21 @@ To write a Python program that counts the number of lines in a text file `story.
 
 ## 🧾 Program
 Add code here
-
+~~~
+def create_file(file_path,content):
+    with open(file_path,'w') as f:
+        f.write(file_content)
+def count_words_in_file(file_path):
+    with open(file_path,'r')as f:
+        v=f.read()
+        t=v.split()
+        q=len(t)
+    return(q)
+~~~
 ## Output
+<img width="1136" height="461" alt="image" src="https://github.com/user-attachments/assets/357c6636-263a-40ae-894b-bfddf9a12fb2" />
+
+
 
 ## Result
+Thus,the Python program that counts the number of lines in a text file `story.txt` that do **not** start with the alphabet `'T'` is created successfully.
